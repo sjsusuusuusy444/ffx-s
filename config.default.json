@@ -3,7 +3,7 @@
     "env": "dev",
     "port": 4100,
     "protocol": "http",
-    "domain": "puter.localhost",
+    "domain": "ffx-s.onrender.com",
     "cookie_name": "puter_auth_token",
     "jwt_secret_v2": "dev-jwt-secret-v2-change-me",
     "url_signature_secret": "dev-url-signature-secret-change-me",
