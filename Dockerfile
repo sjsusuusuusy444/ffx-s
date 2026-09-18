@@ -80,7 +80,7 @@ ENV NODE_OPTIONS=--enable-source-maps
 
 EXPOSE 4100
 
-USER node
+USER root
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=30s --retries=3 \
     CMD wget --no-verbose --tries=1 --spider http://puter.localhost:4100/test || exit 1
